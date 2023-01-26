@@ -20,7 +20,7 @@ To get a local copy up and running, kindly follow these steps.
 ### Installation
 1. Clone the repo
 ```
-git clone https://github.com/r-clarissa/pipelined-computer.git
+git clone https://github.com/r-clarissa/pipelined-cpu.git
 ```
 4. Find and change your terminal path where the cloned folder on your local directory is found.
 5. On your terminal, run the `app.py`.
