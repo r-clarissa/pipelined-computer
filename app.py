@@ -1,12 +1,10 @@
 
 '''
-    Title: Exercise 09: Programming Pipelined Computer
     Author: Clarissa G. Rodriguez
-    Date: November 29, 2022
     Description: Accepts a list of instructions and outputs onscreen the pipelined version of processing those instructions.
 '''
 
-from settings import * # exercise restrictions
+from settings import * # pipelining restrictions
 import time
 
 ''' ==== START OF STEP 1. VALIDATION AND PARSING OF INSTRUCTION SET ===='''
