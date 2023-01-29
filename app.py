@@ -1,9 +1,3 @@
-
-'''
-    Author: Clarissa G. Rodriguez
-    Description: Accepts a list of instructions and outputs onscreen the pipelined version of processing those instructions.
-'''
-
 from settings import * # pipelining restrictions
 import time
 
