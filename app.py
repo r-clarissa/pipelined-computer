@@ -78,17 +78,8 @@ def display(pipes):
 ''' ==================== START OF MAIN DRIVER ======================== '''
 # boots the pipelining app
 def boot():
-    global fp, err; valid = False # data declarations
-    lines = read(fp) # reads data from file
-    if validate(lines): # validates the length of data
-        instructions = parse(lines) # parses the valid data, empty if invalid
-        if instructions: # if there are parsed data
-            pipes = pipelining(instructions) # pipeline the data
-            display(pipes) # displays output of the five-stage design pipelining
-            valid = True # valid pipelining
-    if valid == False: # invalid pipelining
-        print(err) # error prompt
-    return
+   pass
+
 boot() # boot caller
 ''' ==================== END OF MAIN DRIVER ======================== '''
 
